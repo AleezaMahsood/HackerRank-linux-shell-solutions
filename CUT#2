@@ -1,0 +1,2 @@
+# used to print 2 and 7 character of input
+cut -c 2,7
