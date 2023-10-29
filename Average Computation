@@ -1,0 +1,15 @@
+read N
+let sum=0
+
+# Loop to read values and calculate the sum
+for ((i=1; i<=N; i++))
+do
+   read a
+   sum=$((sum + a))
+done
+
+# Calculate the average using bc for floating-point division
+average=$(echo "$sum / $N" | bc -l)
+
+# Print the average with three decimal places
+printf "%.3f\n" "$average"
