@@ -1,0 +1,2 @@
+# To display the lines 12 to 22 inclusive of a given text file
+sed -n '12,22p'
