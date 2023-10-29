@@ -1,0 +1,5 @@
+# Head of Text file#1
+head -n 20
+# Head of Text file#2
+head -c 20
+  
