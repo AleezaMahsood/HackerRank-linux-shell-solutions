@@ -1,0 +1,2 @@
+# It is used to print the third character of input at a new line
+cut -c 3
