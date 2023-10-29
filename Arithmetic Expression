@@ -1,0 +1,6 @@
+#!/bin/bash
+read a
+# Use bc for floating-point arithmetic
+result=`echo "$a" | bc -l`
+# Print the result
+printf "%.3f\n" "$result"
